@@ -1,9 +1,6 @@
-const api = () => {
-  return 1;
-};
-const api2 = (result) => {
-  return result + 1;
-};
+// use async/await
+const api = () => 1;
+const api2 = (result) => result + 1;
 
 const callApis = async () => {
   let result = await api();
